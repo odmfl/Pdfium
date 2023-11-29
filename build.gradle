@@ -45,11 +45,3 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-// Maven Publishing
-ext {
-    PUBLISH_GROUP_ID = 'com.odmfl.mhiew'
-    PUBLISH_VERSION = "1.9.2"
-    PUBLISH_ARTIFACT_ID = 'pdfium-android'
-}
-
-apply from: "${rootProject.projectDir}/publish-mavencentral.gradle"
