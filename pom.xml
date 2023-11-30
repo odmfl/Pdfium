@@ -6,6 +6,20 @@
 
   <modelVersion>4.0.0</modelVersion>
 
+
+   <plugin>
+    <groupId>com.simpligility.maven.plugins</groupId>
+    <artifactId>android-maven-plugin</artifactId>
+    <version>4.1.0</version>
+
+    <extensions>true</extensions>         
+    <configuration>
+        <sign>
+            <debug>false</debug>
+        </sign>
+    </configuration>
+</plugin> 
+    
   <groupId>io.github.odmfl</groupId>
 
   <artifactId>pdfium</artifactId>
