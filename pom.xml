@@ -1,34 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.odmfl</groupId>
-    <artifactId>Pdfium</artifactId>
-    <version>1.0</version>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    <dependencies>
-        <dependency>
-            <groupId>io.github.odmfl</groupId>
-            <artifactId>Pdfium</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
-        
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <build>
-      <plugins>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.2</version>
-        </plugin>
-      </plugins>
-    </build>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.odmfl</groupId>
+
+  <artifactId>pdfium</artifactId>
+
+  <version>1.9.8</version>
+
+  <packaging>aar</packaging>
+
+  <name>Pdfium</name>
+
+  <description>Pdfium Library for Android </description>
+
+  <url>https://github.com/odmfl/Pdfium</url>
+
+  <licenses>
+
+    <license>
+
+      <name>The Apache License, Version 2.0</name>
+
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+
+    </license>
+
+  </licenses>
+
+  <developers>
+
+    <developer>
+
+      <id>odmfl</id>
+
+      <name>odmfl</name>
+
+
+      <roles>
+
+        <role>owner</role>
+
+        <role>developer</role>
+
+      </roles>
+
+    </developer>
+
+  </developers>
+
+  <scm>
+
+    <connection>scm:git:git://github.com/odmfl/Pdfium.git</connection>
+
+    <developerConnection>scm:git:ssh://github.com/odmfl/Pdfium.git</developerConnection>
+
+    <url>https://github.com/odmfl/Pdfium/tree/master/Pdfium</url>
+
+  </scm>
 
 </project>
+
