@@ -79,8 +79,8 @@ afterEvaluate {
 
                 pom {
                     name = PUBLISH_ARTIFACT_ID
-                    description = 'Fork of Barteksc Pdfium Android'
-                    url = 'https://github.com/mhiew/PdfiumAndroid'
+                    description = 'Fork of Barteksc Pdfium for Android'
+                    url = 'https://github.com/odmfl/Pdfium'
                     licenses {
                         license {
                             name = 'The Apache License, Version 2.0'
@@ -89,14 +89,14 @@ afterEvaluate {
                     }
                     developers {
                         developer {
-                            id = 'min'
-                            name = 'Min Hiew'
+                            id = 'odmfl'
+                            name = 'odmfl'
                         }
                     }
                     scm {
-                        connection = 'scm:git:https://github.com/mhiew/'
-                        developerConnection = 'scm:git:ssh:github.com:mhiew/PdfiumAndroid.git'
-                        url = 'https://github.com/mhiew/PdfiumAndroid'
+                        connection = 'scm:git:https://github.com/odmfl/'
+                        developerConnection = 'scm:git:ssh:github.com:odmfl/Pdfium.git'
+                        url = 'https://github.com/odmfl/PdfiumAndroid'
                     }
                 }
             }
