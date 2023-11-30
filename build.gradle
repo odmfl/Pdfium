@@ -47,7 +47,7 @@ dependencies {
 
 // Maven Publishing
 ext {
-    PUBLISH_GROUP_ID = 'com.github.odmfl'
+    PUBLISH_GROUP_ID = 'io.github.odmfl'
     PUBLISH_VERSION = "1.9.8"
     PUBLISH_ARTIFACT_ID = 'pdfium'
 }
