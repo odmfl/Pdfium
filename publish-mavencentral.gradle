@@ -79,7 +79,7 @@ afterEvaluate {
 
                 pom {
                     name = PUBLISH_ARTIFACT_ID
-                    description = 'Fork of Barteksc Pdfium for Android'
+                    description = 'Fork of Barteksc Pdfium'
                     url = 'https://github.com/odmfl/Pdfium'
                     licenses {
                         license {
